@@ -1,0 +1,149 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(83, 83, 83);
+
+}
+
+header {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.5em;
+    text-shadow: 0px 2px 3px black;
+    letter-spacing: 1px;
+    
+}
+
+.loginBox {
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 15px;
+    border: 2px solid rgb(177, 177, 177);
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    padding: 0px 10px 5px 10px;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: whitesmoke;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 4px black;
+
+}
+.loginBox p {
+    text-shadow: 0px 2px 3px black;
+    margin: 15px;
+}
+
+div input {
+    margin: auto;
+    margin-bottom: 15px;
+    width: 79.5%;
+    outline: 0;
+    border: 0;
+    background: transparent;
+    border-bottom: 2px solid rgb(177, 177, 177);
+    font-size: 16px;
+    color: whitesmoke;
+    letter-spacing: 0.5px;
+    padding-bottom: 2px;
+    
+}
+div input::placeholder {
+    color: rgb(211, 211, 211);
+}
+div input:focus {
+    border-bottom: 2px solid white;
+}
+
+.notebox {
+    margin: auto;
+    margin-bottom: 15px;
+    padding-bottom: 100px;
+    inline-size: 400px;
+    overflow-wrap: break-word;
+    resize: vertical;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid rgb(177, 177, 177);
+    font-size: 16px;
+    color: whitesmoke;
+    
+
+}
+.notebox::placeholder {
+    color: rgb(211, 211, 211);
+}
+.notebox:focus {
+    border-bottom: 2px solid white;
+}
+
+.center {
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    justify-content: center;
+}
+
+.submitButton {
+    margin: 0 auto;
+    width: 100px;
+    height: 35px;
+    font: inherit;
+    font-weight: bold;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 3px black;
+    cursor: pointer;
+}
+.submitButton:active {
+    background-color: rgb(190, 190, 190);
+}
+
+.buttonStyles {
+    margin: 0 auto;
+    width: 100px;
+    height: 35px;
+    font: inherit;
+    font-weight: bold;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 3px black;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+.buttonStyles:active {
+    background-color: rgb(190, 190, 190);
+}
+
+
+.notesList {
+    border-spacing: 10px;
+
+}
+.notesList li {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+    background-color: rgb(224, 224, 224);
+    border-radius: 6px;
+    box-shadow: 0px 3px 4px black;
+    padding: 15px;
+    
+}
+
+p {
+    margin: 0 auto;
+    padding: 0px;
+    display: inline;
+    word-wrap: break-word;
+}
